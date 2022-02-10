@@ -23,7 +23,7 @@ The following IMUs and their corresponding `IMU` values are supported by the fir
 * MPU-9250 (IMU_MPU9250)
   * Using Mahony sensor fusion of Gyroscope, Magnetometer and Accelerometer, requires good magnetic environment.
   * See *Sensor calibration* below for info on calibrating this sensor.
-  * Specify `IMU_MPU6500` in your `defines.h` to use without magentometer in 6DoF mode.
+  * Specify `IMU_MPU6500` in your `defines.h` to use without magnetometer in 6DoF mode.
   * Experimental support!
 * BMI160 (IMU_BMI160)
   * Using Mahony sensor fusion of Gyroscope and Accelerometer
